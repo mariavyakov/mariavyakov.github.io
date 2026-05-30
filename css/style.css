@@ -35,11 +35,11 @@ body {
 
 .container {
 
-    max-width: 1200px;
+    max-width: 1000px;
 
     margin: 0 auto;
 
-    padding: 0 48px;
+    padding: 0 40px;
 
 }
 
@@ -76,7 +76,9 @@ img {
 
 header {
 
-    padding: var(--space-md) 0;
+    padding-top: 32px;
+
+    padding-bottom: 32px;
 
 }
 
@@ -130,11 +132,11 @@ header {
 
     display: grid;
 
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 250px 500px;
 
-    gap: var(--space-lg);
+    gap: 80px;
 
-    align-items: center;
+    align-items: start;
 
 }
 
@@ -153,5 +155,13 @@ header {
 .portfolio-title {
 
     margin-top: var(--space-xl);
+
+}
+
+section {
+
+    padding-top: 96px;
+
+    padding-bottom: 96px;
 
 }
